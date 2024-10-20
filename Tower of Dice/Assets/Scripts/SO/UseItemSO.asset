@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae88fdcb0117c04982726be1c17eebe, type: 3}
+  m_Name: UseItemSO
+  m_EditorClassIdentifier: 
+  useItem:
+  - name: "\uCCB4\uB825 \uD3EC\uC158"
+    ability: "\uCCB4\uB825 10 \uD68C\uBCF5"
+    itemsprite: {fileID: 21300000, guid: 8166c9689b000e9408f664edac5a8bce, type: 3}
+    price: 50
+    percent: 5
+    place: 0
+  - name: "\uB51C \uD3EC\uC158"
+    ability: "\uC801 \uB370\uBBF8\uC9C0 10"
+    itemsprite: {fileID: 21300000, guid: 3d3663b887a394c46bac5592de26f464, type: 3}
+    price: 80
+    percent: 5
+    place: 0
+  - name: "\uB4DC\uB85C\uC6B0 \uD3EC\uC158"
+    ability: "\uCE74\uB4DC 2\uC7A5 \uB4DC\uB85C\uC6B0"
+    itemsprite: {fileID: 21300000, guid: 01da836bb88af67439899a21c86edd3e, type: 3}
+    price: 100
+    percent: 5
+    place: 0
+  - name: "\uAE08 \uC8FC\uBA38\uB2C8"
+    ability: "\uC0AC\uC6A9 \uC2DC 100 \uACE8\uB4DC \uD68D\uB4DD (\uC0C1\uC810\uC5D0\uC11C
+      \uC0AC\uC6A9 \uBD88\uAC00)"
+    itemsprite: {fileID: 21300000, guid: db2e9e42d61488d4ead1f970a2e4bd3f, type: 3}
+    price: 70
+    percent: 5
+    place: 0
+  - name: "\uCE58\uBA85\uD0C0 \uD3EC\uC158"
+    ability: "\uB2E4\uC74C\uC5D0 \uAC00\uD558\uB294 \uACF5\uACA9\uC774 2\uBC30"
+    itemsprite: {fileID: 21300000, guid: c8424fde12bf1cb44afb8dc65d3020bc, type: 3}
+    price: 200
+    percent: 5
+    place: 0
+  - name: 
+    ability: 
+    itemsprite: {fileID: 0}
+    price: 0
+    percent: 0
+    place: 0

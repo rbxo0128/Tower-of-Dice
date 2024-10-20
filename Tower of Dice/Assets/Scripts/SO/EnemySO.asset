@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07aa5e254549ac14f8aa4ccd87dbcc66, type: 3}
+  m_Name: EnemySO
+  m_EditorClassIdentifier: 
+  enemy:
+  - name: "\uBE68\uAC04\uB2E8"
+    maxhealth: 20
+    enemyAnimator: {fileID: 9100000, guid: c8d4d4cc48ae30b418e4152a601b7ac1, type: 2}
+  - name: "\uB291\uB300"
+    maxhealth: 15
+    enemyAnimator: {fileID: 9100000, guid: 2db3e06a41138884d8500422a38bc2b8, type: 2}
+  - name: "\uC880\uBE44"
+    maxhealth: 30
+    enemyAnimator: {fileID: 9100000, guid: 97b3586ba41e6cb4ca98970c397cfd37, type: 2}
+  - name: "\uACE0\uBE14\uB9B0"
+    maxhealth: 40
+    enemyAnimator: {fileID: 9100000, guid: 6ac55dac57eeb914d861a23c5d45e5f6, type: 2}
+  - name: "\uBC84\uC12F"
+    maxhealth: 25
+    enemyAnimator: {fileID: 9100000, guid: f9d11ceefa2f0644a98d379ca4cd868c, type: 2}
+  - name: "\uACF5\uB8E1"
+    maxhealth: 50
+    enemyAnimator: {fileID: 9100000, guid: 40bc527658eeb314bac3765eea3ab331, type: 2}
+  boss:
+  - name: "\uD2B8\uB864"
+    maxhealth: 60
+    enemyAnimator: {fileID: 9100000, guid: ca5da4a82638e0843b09e254238a6c05, type: 2}
+  - name: "\uB2CC\uC790"
+    maxhealth: 80
+    enemyAnimator: {fileID: 9100000, guid: 4bdd422d50a5c554fbbaaeede213ef27, type: 2}

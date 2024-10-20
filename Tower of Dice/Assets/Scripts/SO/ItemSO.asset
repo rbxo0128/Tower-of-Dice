@@ -1,0 +1,419 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433eaed9efd6f3d49b204d9b1b3ea2c3, type: 3}
+  m_Name: ItemSO
+  m_EditorClassIdentifier: 
+  items:
+  - name: "\uB178\uB9D0\uC8FC\uC0AC\uC704"
+    size: 6
+    dicespot1: 1
+    dicespot2: 2
+    dicespot3: 3
+    dicespot4: 4
+    dicespot5: 5
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 5
+  - name: "\uB178\uB9D0\uC8FC\uC0AC\uC704+"
+    size: 6
+    dicespot1: 2
+    dicespot2: 2
+    dicespot3: 4
+    dicespot4: 4
+    dicespot5: 6
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 5
+  - name: "\uB178\uB9D0\uC8FC\uC0AC\uC704++"
+    size: 6
+    dicespot1: 3
+    dicespot2: 3
+    dicespot3: 3
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 5
+  enemyitems:
+  - name: "\uB3C4\uB451\uC8FC\uC0AC\uC704"
+    size: 1
+    dicespot1: 1
+    dicespot2: 1
+    dicespot3: 1
+    dicespot4: 3
+    dicespot5: 3
+    dicespot6: 5
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 10
+  - name: "\uB3C4\uB451\uC8FC\uC0AC\uC704+"
+    size: 2
+    dicespot1: 1
+    dicespot2: 1
+    dicespot3: 2
+    dicespot4: 3
+    dicespot5: 3
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 10
+  - name: "\uB3C4\uB451\uC8FC\uC0AC\uC704++"
+    size: 3
+    dicespot1: 2
+    dicespot2: 2
+    dicespot3: 4
+    dicespot4: 4
+    dicespot5: 6
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 3
+  addItems:
+  - name: "\uCD94\uAC00\uC8FC\uC0AC\uC7041"
+    size: 1
+    dicespot1: 1
+    dicespot2: 1
+    dicespot3: 1
+    dicespot4: 1
+    dicespot5: 1
+    dicespot6: 1
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uCD94\uAC00\uC8FC\uC0AC\uC7042"
+    size: 2
+    dicespot1: 2
+    dicespot2: 2
+    dicespot3: 2
+    dicespot4: 2
+    dicespot5: 2
+    dicespot6: 2
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uCD94\uAC00\uC8FC\uC0AC\uC7043"
+    size: 3
+    dicespot1: 3
+    dicespot2: 3
+    dicespot3: 3
+    dicespot4: 3
+    dicespot5: 3
+    dicespot6: 3
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uCD94\uAC00\uC8FC\uC0AC\uC7044"
+    size: 4
+    dicespot1: 4
+    dicespot2: 4
+    dicespot3: 4
+    dicespot4: 4
+    dicespot5: 4
+    dicespot6: 4
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uCD94\uAC00\uC8FC\uC0AC\uC7045"
+    size: 5
+    dicespot1: 5
+    dicespot2: 5
+    dicespot3: 5
+    dicespot4: 5
+    dicespot5: 5
+    dicespot6: 5
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uCD94\uAC00\uC8FC\uC0AC\uC7046"
+    size: 6
+    dicespot1: 6
+    dicespot2: 6
+    dicespot3: 6
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  shopItems:
+  - name: "\uC0C1\uC810\uC8FC\uC0AC\uC7041"
+    size: 1
+    dicespot1: 1
+    dicespot2: 1
+    dicespot3: 1
+    dicespot4: 1
+    dicespot5: 1
+    dicespot6: 1
+    price: 10
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uC0C1\uC810\uC8FC\uC0AC\uC7042"
+    size: 2
+    dicespot1: 2
+    dicespot2: 2
+    dicespot3: 2
+    dicespot4: 2
+    dicespot5: 2
+    dicespot6: 2
+    price: 50
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uC0C1\uC810\uC8FC\uC0AC\uC7043"
+    size: 3
+    dicespot1: 3
+    dicespot2: 3
+    dicespot3: 3
+    dicespot4: 3
+    dicespot5: 3
+    dicespot6: 3
+    price: 60
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uC0C1\uC810\uC8FC\uC0AC\uC7044"
+    size: 4
+    dicespot1: 4
+    dicespot2: 4
+    dicespot3: 4
+    dicespot4: 4
+    dicespot5: 4
+    dicespot6: 4
+    price: 80
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uC0C1\uC810\uC8FC\uC0AC\uC7045"
+    size: 5
+    dicespot1: 5
+    dicespot2: 5
+    dicespot3: 5
+    dicespot4: 5
+    dicespot5: 5
+    dicespot6: 5
+    price: 20
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uC0C1\uC810\uC8FC\uC0AC\uC7046"
+    size: 6
+    dicespot1: 6
+    dicespot2: 6
+    dicespot3: 6
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 6
+    price: 6
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uC0C1\uC810\uC8FC\uC0AC\uC7046"
+    size: 6
+    dicespot1: 6
+    dicespot2: 6
+    dicespot3: 6
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 6
+    price: 6
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uC0C1\uC810\uC8FC\uC0AC\uC7047"
+    size: 6
+    dicespot1: 6
+    dicespot2: 6
+    dicespot3: 6
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 6
+    price: 6
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  - name: "\uC0C1\uC810\uC8FC\uC0AC\uC7048"
+    size: 6
+    dicespot1: 6
+    dicespot2: 6
+    dicespot3: 6
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 6
+    price: 6
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 1
+  goblinitems:
+  - name: "\uACE0\uBE14\uB9B0\uC8FC\uC0AC\uC704"
+    size: 1
+    dicespot1: 2
+    dicespot2: 2
+    dicespot3: 2
+    dicespot4: 2
+    dicespot5: 2
+    dicespot6: 2
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 10
+  - name: "\uACE0\uBE14\uB9B0\uC8FC\uC0AC\uC704+"
+    size: 1
+    dicespot1: 4
+    dicespot2: 4
+    dicespot3: 4
+    dicespot4: 4
+    dicespot5: 4
+    dicespot6: 4
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 5
+  - name: "\uACE0\uBE14\uB9B0\uC8FC\uC0AC\uC704++"
+    size: 1
+    dicespot1: 6
+    dicespot2: 4
+    dicespot3: 6
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 2
+  mushroomitems:
+  - name: "\uBC84\uC12F\uC8FC\uC0AC\uC704"
+    size: 1
+    dicespot1: 1
+    dicespot2: 3
+    dicespot3: 2
+    dicespot4: 5
+    dicespot5: 4
+    dicespot6: 1
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 5
+  - name: "\uBC84\uC12F\uC8FC\uC0AC\uC704+"
+    size: 1
+    dicespot1: 2
+    dicespot2: 4
+    dicespot3: 3
+    dicespot4: 6
+    dicespot5: 5
+    dicespot6: 2
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 10
+  - name: "\uBC84\uC12F\uC8FC\uC0AC\uC704++"
+    size: 1
+    dicespot1: 3
+    dicespot2: 5
+    dicespot3: 4
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 3
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 2
+  wolfitems:
+  - name: "\uB291\uB300\uC8FC\uC0AC\uC704"
+    size: 
+    dicespot1: 1
+    dicespot2: 1
+    dicespot3: 1
+    dicespot4: 2
+    dicespot5: 2
+    dicespot6: 2
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 10
+  - name: "\uB291\uB300\uC8FC\uC0AC\uC704+"
+    size: 
+    dicespot1: 2
+    dicespot2: 2
+    dicespot3: 2
+    dicespot4: 3
+    dicespot5: 3
+    dicespot6: 3
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 5
+  - name: "\uB291\uB300\uC8FC\uC0AC\uC704++"
+    size: 
+    dicespot1: 3
+    dicespot2: 3
+    dicespot3: 3
+    dicespot4: 5
+    dicespot5: 5
+    dicespot6: 5
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 2
+  zombieitems:
+  - name: "\uC880\uBE44\uC8FC\uC0AC\uC704"
+    size: 1
+    dicespot1: 1
+    dicespot2: 2
+    dicespot3: 3
+    dicespot4: 4
+    dicespot5: 5
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 10
+  - name: "\uC880\uBE44\uC8FC\uC0AC\uC704+"
+    size: 1
+    dicespot1: 2
+    dicespot2: 2
+    dicespot3: 4
+    dicespot4: 4
+    dicespot5: 6
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 5
+  - name: "\uC880\uBE44\uC8FC\uC0AC\uC704++"
+    size: 1
+    dicespot1: 3
+    dicespot2: 3
+    dicespot3: 3
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 2
+  dinoitems:
+  - name: "\uACF5\uB8E1\uC8FC\uC0AC\uC704"
+    size: 1
+    dicespot1: 4
+    dicespot2: 5
+    dicespot3: 6
+    dicespot4: 4
+    dicespot5: 5
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 10
+  - name: "\uACF5\uB8E1\uC8FC\uC0AC\uC704+"
+    size: 1
+    dicespot1: 5
+    dicespot2: 6
+    dicespot3: 5
+    dicespot4: 6
+    dicespot5: 5
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 5
+  - name: "\uACF5\uB8E1\uC8FC\uC0AC\uC704++"
+    size: 1
+    dicespot1: 6
+    dicespot2: 6
+    dicespot3: 6
+    dicespot4: 6
+    dicespot5: 6
+    dicespot6: 6
+    price: 0
+    sprite: {fileID: 21300000, guid: ead47b7115ebca2478f50c4cb4a38c44, type: 3}
+    percent: 3

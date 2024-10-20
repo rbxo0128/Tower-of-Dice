@@ -1,0 +1,36 @@
+using System.Collections;
+using System.Collections.Generic;
+using DG.Tweening;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GamePanel : MonoBehaviour
+{
+    // Start is called before the first frame update
+
+    public void Show()
+    {
+        Sequence sequence = DOTween.Sequence()
+            .AppendCallback(() => {
+                ScaleOne();
+            })
+            .AppendInterval(0.9f);
+    }
+
+    public void Hide()
+    {
+        Sequence sequence = DOTween.Sequence()
+        .Append(transform.DOScale(Vector3.zero, 0.3f).SetEase(Ease.InOutQuad))
+        .AppendInterval(0.9f);
+    }
+
+    void Start() => ScaleZero();
+
+    [ContextMenu("ScaleOne")]
+    void ScaleOne(){
+        transform.DOScale(Vector3.one, 0.3f);
+    }
+
+    [ContextMenu("ScaleZero")]
+    public void ScaleZero() => transform.localScale = Vector3.zero;
+}
