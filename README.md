@@ -10,7 +10,7 @@ https://github.com/rbxo0128/Tower-of-Dice
 
 ## 다운로드
 
-https://github.com/rbxo0128/Tower-of-Dice/blob/main/TowerofDice/Build/TowerofDice.zip
+https://github.com/rbxo0128/Tower-of-Dice/blob/main/Tower%20of%20Dice/Build/Tower%20of%20Dice.zip
 
 
 ## 게임 사진
